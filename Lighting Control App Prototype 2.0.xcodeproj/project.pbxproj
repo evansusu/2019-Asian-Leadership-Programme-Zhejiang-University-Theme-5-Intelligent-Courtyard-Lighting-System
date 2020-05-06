@@ -1,0 +1,494 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6940792111F0257B15CCAE6E /* Pods_Lighting_Control_App_Prototype_1_5.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F3711FA43B5B94B6C1B5632 /* Pods_Lighting_Control_App_Prototype_1_5.framework */; settings = {ATTRIBUTES = (Required, ); }; };
+		E76C7C6C22D4DDF400B62D18 /* LightClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = E76C7C6B22D4DDF400B62D18 /* LightClass.swift */; };
+		E76C7C7022D4DF4C00B62D18 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = E76C7C6F22D4DF4C00B62D18 /* Data.swift */; };
+		E76C7C7222D4E14700B62D18 /* LightListScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = E76C7C7122D4E14700B62D18 /* LightListScreen.swift */; };
+		E76C7C7422D603DF00B62D18 /* LightTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E76C7C7322D603DF00B62D18 /* LightTableViewCell.swift */; };
+		E76C7C7622D61F4800B62D18 /* UIView Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E76C7C7522D61F4800B62D18 /* UIView Extensions.swift */; };
+		E76C7C7822D6283D00B62D18 /* addButtonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E76C7C7722D6283D00B62D18 /* addButtonViewController.swift */; };
+		E76E46D422D76D5F00B90A7D /* lightSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = E76E46D322D76D5F00B90A7D /* lightSettings.swift */; };
+		E7721E4A22EC5F27005B1512 /* setFacialRecog.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7721E4922EC5F27005B1512 /* setFacialRecog.swift */; };
+		E7889B8722EADA5F002A1FC0 /* webViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7889B8622EADA5F002A1FC0 /* webViewController.swift */; };
+		E7D58D6022D2368300EF0437 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7D58D5F22D2368300EF0437 /* AppDelegate.swift */; };
+		E7D58D6222D2368300EF0437 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7D58D6122D2368300EF0437 /* ViewController.swift */; };
+		E7D58D6522D2368300EF0437 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E7D58D6322D2368300EF0437 /* Main.storyboard */; };
+		E7D58D6722D2368400EF0437 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E7D58D6622D2368400EF0437 /* Assets.xcassets */; };
+		E7D58D6A22D2368400EF0437 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E7D58D6822D2368400EF0437 /* LaunchScreen.storyboard */; };
+		E7D58D7222D24F2600EF0437 /* Create Account Page.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7D58D7122D24F2600EF0437 /* Create Account Page.swift */; };
+		E7D5BBB022D87BC80016507D /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E7D5BBAF22D87BC80016507D /* Default-568h@2x.png */; };
+		E7D5BBF422D885B40016507D /* Lighting Control App Prototype 1.5.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E7D5BBF222D885B40016507D /* Lighting Control App Prototype 1.5.xcdatamodeld */; };
+		E7D5BBF722D886540016507D /* User+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7D5BBF522D886540016507D /* User+CoreDataClass.swift */; };
+		E7D5BBF822D886540016507D /* User+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7D5BBF622D886540016507D /* User+CoreDataProperties.swift */; };
+		E7D5BBFB22D8875D0016507D /* PersistenceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7D5BBFA22D8875D0016507D /* PersistenceManager.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2F3711FA43B5B94B6C1B5632 /* Pods_Lighting_Control_App_Prototype_1_5.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Lighting_Control_App_Prototype_1_5.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FACA04C524717EC96C83E9A /* Pods-Lighting Control App Prototype 1.5.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lighting Control App Prototype 1.5.debug.xcconfig"; path = "Target Support Files/Pods-Lighting Control App Prototype 1.5/Pods-Lighting Control App Prototype 1.5.debug.xcconfig"; sourceTree = "<group>"; };
+		92BCFDA9DD12FA466FE03279 /* Pods-Lighting Control App Prototype 1.5.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lighting Control App Prototype 1.5.release.xcconfig"; path = "Target Support Files/Pods-Lighting Control App Prototype 1.5/Pods-Lighting Control App Prototype 1.5.release.xcconfig"; sourceTree = "<group>"; };
+		E760649222EA00C70084A484 /* SwiftSocket.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SwiftSocket.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E76C7C6B22D4DDF400B62D18 /* LightClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LightClass.swift; sourceTree = "<group>"; };
+		E76C7C6F22D4DF4C00B62D18 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		E76C7C7122D4E14700B62D18 /* LightListScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LightListScreen.swift; sourceTree = "<group>"; };
+		E76C7C7322D603DF00B62D18 /* LightTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LightTableViewCell.swift; sourceTree = "<group>"; };
+		E76C7C7522D61F4800B62D18 /* UIView Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView Extensions.swift"; sourceTree = "<group>"; };
+		E76C7C7722D6283D00B62D18 /* addButtonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = addButtonViewController.swift; sourceTree = "<group>"; };
+		E76E46D322D76D5F00B90A7D /* lightSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lightSettings.swift; sourceTree = "<group>"; };
+		E7721E4922EC5F27005B1512 /* setFacialRecog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = setFacialRecog.swift; sourceTree = "<group>"; };
+		E7889B8622EADA5F002A1FC0 /* webViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = webViewController.swift; sourceTree = "<group>"; };
+		E7D58D5C22D2368300EF0437 /* Lighting Control App Prototype 1.5.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Lighting Control App Prototype 1.5.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E7D58D5F22D2368300EF0437 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E7D58D6122D2368300EF0437 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E7D58D6422D2368300EF0437 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E7D58D6622D2368400EF0437 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E7D58D6922D2368400EF0437 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E7D58D6B22D2368400EF0437 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E7D58D7122D24F2600EF0437 /* Create Account Page.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Create Account Page.swift"; sourceTree = "<group>"; };
+		E7D5BBAF22D87BC80016507D /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		E7D5BBF322D885B40016507D /* Lighting Control App Prototype 1.5.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "Lighting Control App Prototype 1.5.xcdatamodel"; sourceTree = "<group>"; };
+		E7D5BBF522D886540016507D /* User+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "User+CoreDataClass.swift"; sourceTree = "<group>"; };
+		E7D5BBF622D886540016507D /* User+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "User+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		E7D5BBFA22D8875D0016507D /* PersistenceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceManager.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E7D58D5922D2368300EF0437 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6940792111F0257B15CCAE6E /* Pods_Lighting_Control_App_Prototype_1_5.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C76CCD9CA7394C32D8529289 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E760649222EA00C70084A484 /* SwiftSocket.framework */,
+				2F3711FA43B5B94B6C1B5632 /* Pods_Lighting_Control_App_Prototype_1_5.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C8A5B88AAF7B262FF0915C18 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3FACA04C524717EC96C83E9A /* Pods-Lighting Control App Prototype 1.5.debug.xcconfig */,
+				92BCFDA9DD12FA466FE03279 /* Pods-Lighting Control App Prototype 1.5.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E7D58D5322D2368300EF0437 = {
+			isa = PBXGroup;
+			children = (
+				E7D5BBAF22D87BC80016507D /* Default-568h@2x.png */,
+				E7D58D5E22D2368300EF0437 /* Lighting Control App Prototype 2.0 */,
+				E7D58D5D22D2368300EF0437 /* Products */,
+				C8A5B88AAF7B262FF0915C18 /* Pods */,
+				C76CCD9CA7394C32D8529289 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E7D58D5D22D2368300EF0437 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E7D58D5C22D2368300EF0437 /* Lighting Control App Prototype 1.5.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E7D58D5E22D2368300EF0437 /* Lighting Control App Prototype 2.0 */ = {
+			isa = PBXGroup;
+			children = (
+				E7D58D5F22D2368300EF0437 /* AppDelegate.swift */,
+				E7D58D6122D2368300EF0437 /* ViewController.swift */,
+				E7D58D7122D24F2600EF0437 /* Create Account Page.swift */,
+				E76E46D322D76D5F00B90A7D /* lightSettings.swift */,
+				E76C7C6B22D4DDF400B62D18 /* LightClass.swift */,
+				E7D5BBF222D885B40016507D /* Lighting Control App Prototype 1.5.xcdatamodeld */,
+				E76C7C6F22D4DF4C00B62D18 /* Data.swift */,
+				E76C7C7122D4E14700B62D18 /* LightListScreen.swift */,
+				E76C7C7722D6283D00B62D18 /* addButtonViewController.swift */,
+				E7889B8622EADA5F002A1FC0 /* webViewController.swift */,
+				E76C7C7522D61F4800B62D18 /* UIView Extensions.swift */,
+				E76C7C7322D603DF00B62D18 /* LightTableViewCell.swift */,
+				E7721E4922EC5F27005B1512 /* setFacialRecog.swift */,
+				E7D58D6322D2368300EF0437 /* Main.storyboard */,
+				E7D58D6622D2368400EF0437 /* Assets.xcassets */,
+				E7D58D6822D2368400EF0437 /* LaunchScreen.storyboard */,
+				E7D58D6B22D2368400EF0437 /* Info.plist */,
+				E7D5BBF922D8866B0016507D /* Data */,
+			);
+			path = "Lighting Control App Prototype 2.0";
+			sourceTree = "<group>";
+		};
+		E7D5BBF922D8866B0016507D /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				E7D5BBF522D886540016507D /* User+CoreDataClass.swift */,
+				E7D5BBF622D886540016507D /* User+CoreDataProperties.swift */,
+				E7D5BBFA22D8875D0016507D /* PersistenceManager.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E7D58D5B22D2368300EF0437 /* Lighting Control App Prototype 1.5 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E7D58D6E22D2368400EF0437 /* Build configuration list for PBXNativeTarget "Lighting Control App Prototype 1.5" */;
+			buildPhases = (
+				8A3EBCDBDE901CF983437DA5 /* [CP] Check Pods Manifest.lock */,
+				E7D58D5822D2368300EF0437 /* Sources */,
+				E7D58D5922D2368300EF0437 /* Frameworks */,
+				E7D58D5A22D2368300EF0437 /* Resources */,
+				856CADD12C93284551F36A76 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Lighting Control App Prototype 1.5";
+			productName = "Lighting Control App Prototype 1.1";
+			productReference = E7D58D5C22D2368300EF0437 /* Lighting Control App Prototype 1.5.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E7D58D5422D2368300EF0437 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Cornelius Yap";
+				TargetAttributes = {
+					E7D58D5B22D2368300EF0437 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+				};
+			};
+			buildConfigurationList = E7D58D5722D2368300EF0437 /* Build configuration list for PBXProject "Lighting Control App Prototype 2.0" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E7D58D5322D2368300EF0437;
+			productRefGroup = E7D58D5D22D2368300EF0437 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E7D58D5B22D2368300EF0437 /* Lighting Control App Prototype 1.5 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E7D58D5A22D2368300EF0437 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7D58D6A22D2368400EF0437 /* LaunchScreen.storyboard in Resources */,
+				E7D5BBB022D87BC80016507D /* Default-568h@2x.png in Resources */,
+				E7D58D6722D2368400EF0437 /* Assets.xcassets in Resources */,
+				E7D58D6522D2368300EF0437 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		856CADD12C93284551F36A76 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Lighting Control App Prototype 1.5/Pods-Lighting Control App Prototype 1.5-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Lighting Control App Prototype 1.5/Pods-Lighting Control App Prototype 1.5-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Lighting Control App Prototype 1.5/Pods-Lighting Control App Prototype 1.5-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8A3EBCDBDE901CF983437DA5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Lighting Control App Prototype 1.5-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E7D58D5822D2368300EF0437 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E76C7C7022D4DF4C00B62D18 /* Data.swift in Sources */,
+				E7D58D6222D2368300EF0437 /* ViewController.swift in Sources */,
+				E7D58D6022D2368300EF0437 /* AppDelegate.swift in Sources */,
+				E7D5BBFB22D8875D0016507D /* PersistenceManager.swift in Sources */,
+				E7889B8722EADA5F002A1FC0 /* webViewController.swift in Sources */,
+				E76C7C7822D6283D00B62D18 /* addButtonViewController.swift in Sources */,
+				E76C7C7422D603DF00B62D18 /* LightTableViewCell.swift in Sources */,
+				E7D5BBF722D886540016507D /* User+CoreDataClass.swift in Sources */,
+				E76C7C7222D4E14700B62D18 /* LightListScreen.swift in Sources */,
+				E7D5BBF822D886540016507D /* User+CoreDataProperties.swift in Sources */,
+				E76C7C6C22D4DDF400B62D18 /* LightClass.swift in Sources */,
+				E76C7C7622D61F4800B62D18 /* UIView Extensions.swift in Sources */,
+				E7D5BBF422D885B40016507D /* Lighting Control App Prototype 1.5.xcdatamodeld in Sources */,
+				E7721E4A22EC5F27005B1512 /* setFacialRecog.swift in Sources */,
+				E7D58D7222D24F2600EF0437 /* Create Account Page.swift in Sources */,
+				E76E46D422D76D5F00B90A7D /* lightSettings.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E7D58D6322D2368300EF0437 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E7D58D6422D2368300EF0437 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E7D58D6822D2368400EF0437 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E7D58D6922D2368400EF0437 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E7D58D6C22D2368400EF0437 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E7D58D6D22D2368400EF0437 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E7D58D6F22D2368400EF0437 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3FACA04C524717EC96C83E9A /* Pods-Lighting Control App Prototype 1.5.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WDH7ZHW9A4;
+				INFOPLIST_FILE = "$(SRCROOT)/Lighting Control App Prototype 2.0/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Date.Lighting-Control-App-Prototype-1-1";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E7D58D7022D2368400EF0437 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 92BCFDA9DD12FA466FE03279 /* Pods-Lighting Control App Prototype 1.5.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WDH7ZHW9A4;
+				INFOPLIST_FILE = "$(SRCROOT)/Lighting Control App Prototype 2.0/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Date.Lighting-Control-App-Prototype-1-1";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E7D58D5722D2368300EF0437 /* Build configuration list for PBXProject "Lighting Control App Prototype 2.0" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E7D58D6C22D2368400EF0437 /* Debug */,
+				E7D58D6D22D2368400EF0437 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E7D58D6E22D2368400EF0437 /* Build configuration list for PBXNativeTarget "Lighting Control App Prototype 1.5" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E7D58D6F22D2368400EF0437 /* Debug */,
+				E7D58D7022D2368400EF0437 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		E7D5BBF222D885B40016507D /* Lighting Control App Prototype 1.5.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				E7D5BBF322D885B40016507D /* Lighting Control App Prototype 1.5.xcdatamodel */,
+			);
+			currentVersion = E7D5BBF322D885B40016507D /* Lighting Control App Prototype 1.5.xcdatamodel */;
+			path = "Lighting Control App Prototype 1.5.xcdatamodeld";
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = E7D58D5422D2368300EF0437 /* Project object */;
+}
